@@ -1,0 +1,99 @@
+body {
+  background-color: #d4a373
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 20px;
+  line-height: 1.5;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  background-color: #d4a373;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #d4a373;
+}
+
+h2, h3 {
+  color: #754c24;
+}
+
+hr {
+  border: none;
+  border-top: 2px dashed #d4a373;
+  margin: 10px 0;
+}
+
+a {
+  color: #d4a373;
+  text-decoration: none;
+  padding: 3px 5px;
+}
+
+a:hover {
+  background-color: #ffcf91;
+  border-radius: 5px;
+}
+
+.active {
+  font-weight: bold;
+  color: white;
+  background-color: #d4a373;
+  border-radius: 5px;
+}
+
+img {
+  border-radius: 10px;
+  margin: 5px;
+  border: 2px solid #d4a373;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 10px auto;
+  background-color: #fff8ec;
+  background-image: url("images/cat_bg.png"); /* можно добавить картинку лапок */
+  background-size: cover;
+}
+
+th, td {
+  border: 1px solid #d4a373;
+  padding: 10px;
+  text-align: center;
+}
+
+
+form {
+  background-color: #fff3dc;
+  border: 2px solid #d4a373;
+  border-radius: 10px;
+  padding: 15px;
+  width: 80%;
+  margin: 20px auto;
+}
+
+input, textarea, select, button {
+  margin: 5px 0;
+  padding: 5px;
+  border: 1px solid #d4a373;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #ffcf91;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fcbf75;
+}
+
+footer, small {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #7a5b3e;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name = "viewport" content = "width=device-width, initial-scale = 1.0 ">
+</head>
+<body>
+     <header>
+        <h1> Приключения Бенджамина </h1></header>
+        <hr>
+        <nav>
+           <a href="index.html">Главная</a> 
+           <a href="places1.html">Куда я хочу</a> 
+           <a href="places.html">Где я уже был</a> 
+           <a href="zadacha.html">Математика</a> 
+           <a href="feedback.html"class="active">Поехали вместе</a>
+           <a href = "forms2.html">Контакты</a> 
+           <a href="https://www.vokrugsveta.ru/articles/zamurchatelnye-kompanony-koty-puteshestvenniki-id659906/" target="_blank">О путешествующих котах</a>
+        </nav>
+        
+    <h2> Напиши мне о себе, и я возьму тебя с собой! </h2>
+    <form action = "https://ya.ru/" id="UzerEnter" target="_blank">
+     <fieldset class = "first">
+     <legend>Твои данные</legend>
+
+      <label for="fname">Имя:</label>
+      <input type="text" id="fname" name="fname" value="Маша"><br>
+
+      <label for="lname">Фамилия:</label>
+      <input type="text" id="lname" name="lname" value="Иванова"><br>
+
+      <label for="phone">Телефон:</label>
+      <input type="tel" id="phone" name="phone" value="89191234567"><br>
+
+      <label for="email">Почта:</label>
+      <input type="email" id="email" name="email" value="mashaiv66@mail.ru"><br>
+
+    </fieldset>
+
+    <fieldset>
+      <legend>Немного о тебе</legend>
+
+      <p>Ты не против кошачьей компании?</p>
+      <input type="radio" id="yes" name="cat_friend" value="yes" checked> Да 
+      <input type="radio" id="no" name="cat_friend" value="no"> Нет
+      <br><br>
+
+      <label for="age">Возраст:</label>
+      <input type="number" id="age" name="age" value="23"><br>
+
+      <label for="materic">Куда хочешь поехать:</label>
+      <select name="materic" id="materic">
+        <option value="europe">Европа</option>
+        <option value="asia">Азия</option>
+        <option value="america">Северная Америка</option>
+        <option value="america2">Южная Америка</option>
+        <option value="ocean">Океания</option>
+      </select><br>
+
+      <label for="country">А конкретнее?</label><br>
+      <textarea name="country" id="country" rows="3">Россия</textarea><br>
+      
+      <p>Почему ты хочешь путешествовать?</p>
+       <input type="checkbox" name="reason" value="culture"> Люблю знакомиться с новой культурой<br>
+       <input type="checkbox" name="reason" value="food"> Люблю вкусно покушать<br>
+       <input type="checkbox" name="reason" value="people"> Хочу общаться с людьми<br>
+       <input type="checkbox" name="reason" value="sights"> Хочу увидеть достопримечательности<br>
+       <input type="checkbox" name="reason" value="all" checked> Просто хочется (всё сразу)<br>
+    </fieldset>
+    <button type="submit">Отправить</button>
+  </form>
+</body>
+</html>
